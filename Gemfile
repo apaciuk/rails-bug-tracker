@@ -52,6 +52,11 @@ group :test do
   gem 'webdrivers'
 end
 
+group :production do
+  gem 'pg'
+  gem 'dotenv'
+end
+
 gem 'jquery-rails'
 gem 'font-awesome-rails'
 gem 'devise'
